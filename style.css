@@ -80,6 +80,7 @@ nav ul li a:hover{
     max-width: 479px;
 }
 .porto p{
+    padding: 0 5px;
     display: inline;
     font-size: 36px;
     margin-bottom: 0;

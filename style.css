@@ -161,3 +161,21 @@ nav ul li a:hover{
 .submit input:hover{
     cursor: pointer;
 }
+
+
+.daftar_mahasiswa {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+}
+.daftar_mahasiswa th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+.daftar_mahasiswa th {
+    background-color: #f2f2f2;
+}
+.daftar_mahasiswa  tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

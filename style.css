@@ -209,6 +209,7 @@ nav ul li a:hover{
         overflow-x: scroll;
     }
 }
+
 @media screen and (max-width: 830px){
     nav ul li{
         font-size: 20px;
@@ -233,5 +234,18 @@ nav ul li a:hover{
     }
     .logo{
         margin: auto;
+    }
+}
+@media screen and (max-width: 546px){
+    .desc h1{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 546px){
+    .desc h1{
+        font-size: 40px;
+    }
+    .desc p{
+        font-size: 25px;
     }
 }

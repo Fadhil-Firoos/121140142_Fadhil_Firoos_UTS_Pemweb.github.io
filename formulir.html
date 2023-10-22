@@ -25,7 +25,7 @@
     <section class="container">
         <div class="form">
             <h1>Formulir Pendafataran</h1>
-            <form action="#" method="get">
+            <form action="tabel.html" method="get">
                 <table class="pendaftaran">
                     <tr>
                         <td class="label">
@@ -98,7 +98,7 @@
                     <tr>
                         <th colspan="2">
                             <div class="submit">
-                                <input type="submit" value="Kirim">
+                                <button onclick="success()">Kirim</button>
                             </div>
                         </th>
                     </tr>
@@ -116,5 +116,10 @@
             </div>
         </div>
     </footer>
+    <script>        
+    function success() {
+    alert("Tambah Data Berhasil");
+    }
+    </script>
 </body>
 </html>
